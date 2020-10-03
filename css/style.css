@@ -5,6 +5,15 @@
 /* цвет акцент #2196f3;*/
 /* цвет фона подвал и герой #2F303A; */
 
+/* html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+} */
+
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -16,15 +25,31 @@
 /* body  */
 
 body {
+  outline: 2px solid tomato;
   background-color: #fff;
   color: var(--primary-text-color);
-  font-family: Roboto, sans-serif;
+  font-family: Roboto;
   letter-spacing: 0.03em;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.list,
+.conteiner {
+  outline: 2px solid tomato;
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-title,
+p,
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 /* header */
@@ -68,36 +93,61 @@ footer .logo {
 /* main */
 
 /*  Герой-hero */
-.hero-title {
-  color: var(--hero-color);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.4; /* 60 */
+
+.hero {
+  outline: 2px solid tomato;
   text-align: center;
+  background-color: #2f303a;
+  padding: 200px 452px 280px 452px;
+  /* margin-bottom: 94px; */
+}
+
+.hero-title {
+  outline: 2px solid tomato;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: var(--hero-color);
+  /* min-width: 690px;
+  min-height: 120px; */
+  line-height: 1.4; /* 60 */
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
-.hero .link {
+.hero-link {
+  outline: 2px solid tomato;
+  display: inline-block;
+  min-width: 200px;
+  min-height: 50px;
+  padding: 14px 32px;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+  border-radius: 4px;
+  /* margin: 350px 700px 200px 700px; */
   color: var(--hero-color);
   background-color: var(--accent-color);
   font-weight: 700;
   letter-spacing: 0.06em;
   text-decoration: none;
-}
-.hero {
-  background-color: #2f303a;
+  /* text-align: center; */
+  /* align-items: center; */
+  /* position: absolute; */
+  /* vertical-align: bottom; */
 }
 
 /* Особенности-features */
 .section-title {
   color: var(--title-text-color);
 }
+.features-list {
+  padding-top: 94px;
+}
 
 .features-list .section-title {
   font-size: 14px;
   line-height: 1.1; /* 16 */
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .features-list p {
@@ -114,6 +164,10 @@ footer .logo {
 
 .section h2 {
   text-align: center;
+  margin-bottom: 50px;
+}
+.section-img {
+  padding-bottom: 94px;
 }
 
 /* Команда-comand */
@@ -135,6 +189,10 @@ footer .logo {
 
 /* button  */
 .button button {
+  display: inline-block;
+  padding: 6px 22px;
+  /* border: 2px solid black; */
+  border-radius: 4px;
   color: var(--title-text-color);
   background-color: var(--second-color);
   font-weight: 500;
@@ -147,6 +205,8 @@ footer .logo {
 .button button:focus {
   color: var(--hero-color);
   background-color: var(--accent-color);
+  /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12); */
 }
 
 /* примеры-examples */
@@ -164,6 +224,11 @@ footer .logo {
 
 .contacts {
   background-color: #2f303a;
+  height: 252px;
+  width: 1600px;
+  left: 0px;
+  top: 2097px;
+  border-radius: 0px;
 }
 
 .logo-color {
