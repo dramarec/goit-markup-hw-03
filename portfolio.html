@@ -17,102 +17,115 @@
 
   <body>
     <!-- Шапка -->
-    <header>
-      <!-- Навигация -->
-      <nav>
-        <a href="./index.html" class="logo"
-          ><span class="logo-item">Web</span>Studio</a
-        >
-        <ul class="site-nav">
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html" class="current">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+    <div class="conteiner portfolio">
+      <header class="page-header">
+        <!-- Навигация -->
+        <nav class="flex">
+          <a href="./index.html" class="logo"
+            ><span class="logo-item">Web</span>Studio</a
+          >
+          <ul class="site-nav list">
+            <li class="item">
+              <a href="./index.html" class="link">Студия</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link current">Портфолио</a>
+            </li>
+            <li class="item"><a href="" class="link">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="contacts-list list">
+          <li class="item">
+            <a href="malto:info@devstudio.com" class="link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="item">
+            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+          </li>
         </ul>
-      </nav>
-      <ul class="contacts-list">
-        <li><a href="malto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
-    </header>
+      </header>
+    </div>
 
     <main>
-      <!-- button -->
-      <div class="button">
-        <ul>
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+      <div class="conteiner portfolio">
+        <!-- button -->
+        <ul class="flex-button list">
+          <li class="btn"><button type="button">Все</button></li>
+          <li class="btn"><button type="button">Веб-сайты</button></li>
+          <li class="btn"><button type="button">Приложения</button></li>
+          <li class="btn"><button type="button">Дизайн</button></li>
+          <li class="btn"><button type="button">Маркетинг</button></li>
         </ul>
+        <!-- примеры -->
+        <section class="examples">
+          <ul class="flex-container list">
+            <li class="flex-card">
+              <a href=""><img src="./img/img-01.jpg" alt="" width="370" /></a>
+              <h2 class="title">Технокряк</h2>
+              <p>Веб-сайт</p>
+            </li>
+            <li class="flex-card">
+              <a href=""><img src="./img/img-02.jpg" alt="" width="370" /></a>
+              <h2 class="title">Постер New Orlean vs Golden Star</h2>
+              <p>Дизайн</p>
+            </li>
+            <li class="flex-card">
+              <a href=""><img src="./img/img-03.jpg" alt="" width="370" /></a>
+              <h2 class="title">Ресторан Seafood</h2>
+              <p>Приложение</p>
+            </li>
+            <li class="flex-card">
+              <a href=""><img src="./img/img-04.jpg" alt="" width="370" /></a>
+              <h2 class="title">Проект Prime</h2>
+              <p>Маркетинг</p>
+            </li>
+            <li class="flex-card">
+              <a href=""><img src="./img/img-05.jpg" alt="" width="370" /></a>
+              <h2 class="title">Проект Boxes</h2>
+              <p>Приложение</p>
+            </li>
+            <li class="flex-card">
+              <a href=""><img src="./img/img-06.jpg" alt="" width="370" /></a>
+              <h2 class="title">Inspiration has no Borders</h2>
+              <p>Веб-сайт</p>
+            </li>
+            <li class="flex-card">
+              <a href=""><img src="./img/img-07.jpg" alt="" width="370" /></a>
+              <h2 class="title">Издание Limited Edition</h2>
+              <p>Дизайн</p>
+            </li>
+            <li class="flex-card">
+              <a href=""><img src="./img/img-08.jpg" alt="" width="370" /></a>
+              <h2 class="title">Проект LAB</h2>
+              <p>Маркетинг</p>
+            </li>
+            <li class="flex-card">
+              <a href=""><img src="./img/img-09.jpg" alt="" width="370" /></a>
+              <h2 class="title">Growing Business</h2>
+              <p>Приложение</p>
+            </li>
+          </ul>
+        </section>
       </div>
-
-      <!-- примеры -->
-      <section class="examples">
-        <ul>
-          <li>
-            <a href=""><img src="./img/img-01.jpg" alt="" width="370" /></a>
-            <h2 class="section-title">Технокряк</h2>
-            <p>Веб-сайт</p>
-          </li>
-          <li>
-            <a href=""><img src="./img/img-02.jpg" alt="" width="370" /></a>
-            <h2 class="section-title">Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
-          </li>
-          <li>
-            <a href=""><img src="./img/img-03.jpg" alt="" width="370" /></a>
-            <h2 class="section-title">Ресторан Seafood</h2>
-            <p>Приложение</p>
-          </li>
-          <li>
-            <a href=""><img src="./img/img-04.jpg" alt="" width="370" /></a>
-            <h2 class="section-title">Проект Prime</h2>
-            <p>Маркетинг</p>
-          </li>
-          <li>
-            <a href=""><img src="./img/img-05.jpg" alt="" width="370" /></a>
-            <h2 class="section-title">Проект Boxes</h2>
-            <p>Приложение</p>
-          </li>
-          <li>
-            <a href=""><img src="./img/img-06.jpg" alt="" width="370" /></a>
-            <h2 class="section-title">Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
-          </li>
-          <li>
-            <a href=""><img src="./img/img-07.jpg" alt="" width="370" /></a>
-            <h2 class="section-title">Издание Limited Edition</h2>
-            <p>Дизайн</p>
-          </li>
-          <li>
-            <a href=""><img src="./img/img-08.jpg" alt="" width="370" /></a>
-            <h2 class="section-title">Проект LAB</h2>
-            <p>Маркетинг</p>
-          </li>
-          <li>
-            <a href=""><img src="./img/img-09.jpg" alt="" width="370" /></a>
-            <h2 class="section-title">Growing Business</h2>
-            <p>Приложение</p>
-          </li>
-        </ul>
-      </section>
     </main>
 
     <!-- Подвал -->
     <footer>
       <div class="contacts">
-        <a href="./index.html" class="logo">
-          <span class="logo-item">Web</span
-          ><span class="logo-color">Studio</span>
-        </a>
-        <ul class="contact-list">
-          <li>
-            <address>г. Киев, пр-т Леси Украинки, 26</address>
-          </li>
-          <li class="contact-item">info@example.com</li>
-          <li class="contact-item">+38 099 111 11 11</li>
-        </ul>
+        <div class="conteiner">
+          <a href="./index.html" class="logo">
+            <span class="logo-item">Web</span
+            ><span class="logo-color">Studio</span>
+          </a>
+          <ul class="contact-list list">
+            <li>
+              <address>г. Киев, пр-т Леси Украинки, 26</address>
+            </li>
+            <li class="contact-item">info@example.com</li>
+            <li class="contact-item">+38 099 111 11 11</li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
