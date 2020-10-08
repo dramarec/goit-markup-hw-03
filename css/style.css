@@ -39,13 +39,13 @@ body {
   color: var(--primary-text-color);
   font-family: Roboto;
   letter-spacing: 0.03em;
-  width: 1600px;
+  /* width: 1600px; */
   margin-left: auto;
   margin-right: auto;
 }
 
 .conteiner {
-  /* outline: 2px solid tomato; */
+  outline: 2px solid tomato;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -97,7 +97,7 @@ footer .logo {
 }
 
 /* FLEX */
-.page-header,
+.conteiner.header,
 .flex,
 .site-nav,
 .contacts-list {
@@ -129,12 +129,20 @@ footer .logo {
   /* outline: 2px solid tomato; */
   text-align: center;
   background-color: #2f303a;
-  padding: 200px 452px 280px 452px;
+  padding: 200px 0;
+}
+
+.hero .conteiner {
+  flex-direction: column;
+  /* margin: auto; */
+  /* text-align: center; */
+  /* align-items: center; */
 }
 
 .hero-title {
   /* outline: 2px solid tomato; */
   display: inline-block;
+  width: 696px;
   margin-top: 0;
   margin-bottom: 30px;
   color: var(--hero-color);
@@ -162,6 +170,14 @@ footer .logo {
 }
 
 /* Особенности-features */
+.conteiner .section {
+  padding-top: 94px;
+}
+.feature-cont {
+  outline: 2px solid tomato;
+
+  padding-top: 94px;
+}
 .feature-list {
   display: flex;
   flex-wrap: wrap;
@@ -169,7 +185,7 @@ footer .logo {
 }
 
 .feature-list .item {
-  /* outline: 2px solid tomato; */
+  outline: 2px solid tomato;
   width: 270px;
 }
 
@@ -250,6 +266,10 @@ footer .logo {
 }
 
 /* porfolio.html */
+
+.page-header {
+  /* background-color: green; */
+}
 
 .conteiner.portfolio {
   margin-bottom: 94px;
@@ -342,11 +362,11 @@ footer .logo {
 
 .contacts {
   background-color: #2f303a;
-  height: 252px;
-  width: 1600px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .contacts .conteiner .logo {
-  padding-top: 60px;
+  padding-top: 0;
   padding-bottom: 20px;
 }
 
