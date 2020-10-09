@@ -5,15 +5,6 @@
 /* цвет акцент #2196f3;*/
 /* цвет фона подвал и герой #2F303A; */
 
-/* html {
-  box-sizing: border-box;
-}
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-} */
-
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -171,8 +162,9 @@ footer .logo {
 
 /* Особенности-features */
 
-.features-section .conteiner {
+.feature-cont {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .feature-list {
@@ -182,7 +174,6 @@ footer .logo {
 }
 
 .feature-list .item {
-  /* outline: 2px solid tomato; */
   width: 270px;
 }
 
@@ -200,9 +191,6 @@ footer .logo {
 }
 
 /* Чем мы занимаемся-section */
-.section.engage {
-  padding-top: 94px;
-}
 
 .section-title {
   color: var(--title-text-color);
@@ -251,7 +239,6 @@ footer .logo {
 .comand-list .title,
 .comand-list p {
   margin: 0;
-  /* padding: 0; */
   font-size: 16px;
   line-height: 1.9; /* 19 */
 }
@@ -260,7 +247,6 @@ footer .logo {
   color: var(--title-text-color);
   font-weight: 500;
   padding-top: 30px;
-  /* padding-bottom: 10px; */
 }
 
 .comand {
@@ -268,10 +254,6 @@ footer .logo {
 }
 
 /* porfolio.html */
-
-.page-header {
-  /* background-color: green; */
-}
 
 .conteiner.portfolio {
   margin-bottom: 94px;
@@ -281,7 +263,6 @@ footer .logo {
 .flex-button {
   display: flex;
   justify-content: center;
-  /* padding-top: 94px; */
 }
 
 .flex-button .btn + .btn {
@@ -291,7 +272,6 @@ footer .logo {
 .flex-button button {
   display: inline-block;
   padding: 6px 22px;
-  /* border: 2px solid black; */
   border-radius: 4px;
   color: var(--title-text-color);
   background-color: var(--second-color);
@@ -362,12 +342,12 @@ footer .logo {
 
 /* footer */
 
-.contacts {
+.footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.contacts .conteiner .logo {
+.footer .conteiner .logo {
   padding-top: 0;
   padding-bottom: 20px;
 }
