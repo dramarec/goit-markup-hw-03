@@ -161,7 +161,7 @@ footer .logo {
 
 /* Особенности-features */
 
-.feature-cont {
+.conteiner.feature {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -191,6 +191,10 @@ footer .logo {
 
 /* Чем мы занимаемся-section */
 
+.conteiner.engage {
+  padding-bottom: 94px;
+}
+
 .section-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -205,13 +209,13 @@ footer .logo {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-bottom: 94px;
 }
 
 /* Команда-comand */
 
 .conteiner.comand {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .card-team {
@@ -220,7 +224,6 @@ footer .logo {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  margin-bottom: 94px;
   padding-bottom: 30px;
 }
 
@@ -258,8 +261,8 @@ footer .logo {
 }
 
 .conteiner.portfolio {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* button  */
@@ -294,7 +297,7 @@ footer .logo {
 }
 
 /* примеры-examples */
-.flex-container {
+.examples {
   display: flex;
   flex-wrap: wrap;
 }
