@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,11 +17,11 @@
 
   <body>
     <!-- Шапка-header -->
-    <header class="page-header">
+    <header class="page-header studio">
       <div class="conteiner header">
         <!-- Навигация -->
-        <nav class="flex">
-          <a href="./index.html" class="logo">
+        <nav class="nav flex">
+          <a href="./index.html" aria-label="логотип" class="logo">
             <span class="logo-item">Web</span>Studio
           </a>
           <ul class="site-nav list">
@@ -52,6 +52,7 @@
         <div class="conteiner header">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <a href="" class="hero-link">Заказать услугу</a>
+          <!-- <button class="button">аказать услугу</button> -->
         </div>
       </section>
 
@@ -128,24 +129,24 @@
           <h2 class="section-title list">Наша команда</h2>
           <ul class="comand-list list">
             <li class="card-team">
-              <img src="./img/img-4.jpg" alt="Фото" width="270" />
+              <img src="./img/img-4.jpg" alt="Фото сотрудника" width="270" />
               <h3 class="title">Игорь Демьяненко</h3>
-              <p>Product Designer</p>
+              <p lang="en">Product Designer</p>
             </li>
             <li class="card-team">
-              <img src="./img/img-5.jpg" alt="Фото" width="270" />
+              <img src="./img/img-5.jpg" alt="Фото сотрудника" width="270" />
               <h3 class="title">Ольга Репина</h3>
-              <p>Frontend Developer</p>
+              <p lang="en">Frontend Developer</p>
             </li>
             <li class="card-team">
-              <img src="./img/img-6.jpg" alt="Фото" width="270" />
+              <img src="./img/img-6.jpg" alt="Фото сотрудника" width="270" />
               <h3 class="title">Николай Тарасов</h3>
-              <p>Marketing</p>
+              <p lang="en">Marketing</p>
             </li>
             <li class="card-team">
-              <img src="./img/img-7.jpg" alt="Фото" width="270" />
+              <img src="./img/img-7.jpg" alt="Фото сотрудника" width="270" />
               <h3 class="title">Михаил Ермаков</h3>
-              <p>UI Designer</p>
+              <p lang="en">UI Designer</p>
             </li>
           </ul>
         </div>
@@ -159,13 +160,20 @@
           <span class="logo-item">Web</span
           ><span class="logo-color">Studio</span>
         </a>
-        <ul class="contact-list list">
-          <li>
-            <address>г. Киев, пр-т Леси Украинки, 26</address>
-          </li>
-          <li class="contact-item">info@example.com</li>
-          <li class="contact-item">+38 099 111 11 11</li>
-        </ul>
+        <address>
+          <ul class="contact-list list">
+            <li class="contact-item">
+              <a href="https://goo.gl/maps/K1fkCE5pKCQjTxw7A" class="link" target="_blank">
+                <span class="footer-address">г. Киев, пр-т Леси Украинки, 26</span></a>
+            </li>
+            <li class="contact-item">
+              <a href="malto:info@devstudio.com"" class=" link">info@example.com</a>
+            </li>
+            <li class="contact-item">
+              <a href="tel:+380961111111" class="link">+38 099 111 11 11</a>
+            </li>
+          </ul>
+        </address>
       </div>
     </footer>
   </body>
