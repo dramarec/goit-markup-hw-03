@@ -161,7 +161,7 @@ footer .logo {
 
 /* Особенности-features */
 
-.conteiner.feature {
+.features {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -191,7 +191,7 @@ footer .logo {
 
 /* Чем мы занимаемся-section */
 
-.conteiner.engage {
+.engage {
   padding-bottom: 94px;
 }
 
@@ -213,7 +213,8 @@ footer .logo {
 
 /* Команда-comand */
 
-.conteiner.comand {
+.comand {
+  background-color: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -250,17 +251,13 @@ footer .logo {
   padding-top: 30px;
 }
 
-.comand {
-  background-color: #f5f4fa;
-}
-
 /* porfolio.html */
 
-.page-header.portfolio {
+.page-header.border {
   border-bottom: 1px solid #ececec;
 }
 
-.conteiner.portfolio {
+.portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
